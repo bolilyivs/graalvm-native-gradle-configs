@@ -48,7 +48,7 @@ graalvmNative {
             useFatJar.set(false)
         }
         agent {
-            enabled.set(false)
+            enabled.set(true)
             defaultMode.set("standard")
             metadataCopy {
                 inputTaskNames.add("run")
